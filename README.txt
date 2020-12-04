@@ -1,0 +1,1 @@
+This is a website where I practice everything I have learned about website design. I create a personal website with my interests and goals, displayed through various html and css aspects. As this is a practice website, not everything is fully functional or real. Let me know if you have any suggestions for how I can improve my code, website, or skills.
