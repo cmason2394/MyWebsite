@@ -1,0 +1,11 @@
+.container {
+	display: grid;
+	grid-template: repeat(3, 400px) / repeat(2, 200px);
+	width: 600px;
+}
+
+
+	
+
+
+

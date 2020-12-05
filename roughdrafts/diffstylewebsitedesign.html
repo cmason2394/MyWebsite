@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <title>Cassi's Design and Analytics</title>
+	  <link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  
+  <body>
+    <header>
+	  <h1>Cassi's Design and Analytics</h1>
+	  <nav class="navigate">
+		  <ul>
+			  <li><a href="#About">About</a></li>
+			  <li><a href="#Projects">Projects</a></li>
+			  <li><a href="#30/30 List">30/30 List</a></li>
+			  <li><a href="#Services">Services</a></li>
+        <li><a href="#contact info">Contact</a></li>
+		  </ul>
+	    </nav>
+	  </header>
+	  
+	  <main>
+		  <section id="About">
+	        <h2>About</h2>
+	        <article>Hi there! This is my test-trial into the world of coding. I am interested in programming and data analysis, and this web page is a way to learn and practice coding, while keeping track of where I am and where I want to go. I am exploring building websites, designing apps, and analyzing data. </article>
+        <figure> <!--how do I link my own photos to this website?-->
+          <img src="#IMG_20181210_173842_398.jpg" alt="photo of me">
+        </figure>
+      </section>
+	<!--I want these different div sections to be different tabs, how do you do that? Different files for each section? and how do I link files to this project?-->
+	    <br>
+      <section id="Projects">
+	      <h2> Projects</h2>
+	      <ul>
+          <li><h3>Website design</h3>
+        Learn how to create visually appealing and user-friendly websites. Potentially design websites professionally.</li>
+          <li><h3>App development</h3>
+      Learn how to create apps! Design a riddle app, where you could find riddles, get hints when you are stuck, and upload your own riddles.</li>
+		    <li><h3>EveryDollar visual representations</h3>
+      I use a personal finance app called EveryDollar. It is great, except it doesn't have visual representations of how I allocate and spend my money. I want to learn how to grab the numerical data from the app and show it in graphs and charts to better understand my finances over time.
+      <br>
+      <img class="everydollarlogo" src="https://cdn.dribbble.com/users/1144547/screenshots/2661477/everydollar-logo-animation.gif" alt="everydollar logo">
+      </li>
+        <li><h3>Energy Use visual representations</h3>
+      My mom relies entirely on solar and battery storage for energy use at her house. She wants a visual representation of real-time energy use without going through the internet so that other people can't access her data.</li>
+	   </ul>
+    </section>
+	
+    <br>
+	 
+	<section id="30/30 List">
+      <h2> 30/30 List </h2>
+	  <article>Since I was about to turn 20, I've been making mini bucket lists: goals I want to accomplish by the time I turn a significant age. Right now, I am on my list of 30 things I want to do before I am 30.</article>
+	 
+	  <!--eventually put the 30/30 list into a table, with CSS styling and using basic equations to calculate how many I have accomplished/remain (Javascript?)-->
+	  <table> 
+	    <thead>
+	      <tr>
+          <th></th>
+          <th>Goal</th>
+	        <th>Accomplished?</th>
+	        <th>Notes</th>
+	      </tr>
+	    </thead>
+	    <tbody>
+	      <tr>
+          <td>1</td>
+	        <td>Get a second piercing</td>
+	        <td>Yes</td>
+	        <td> Left lobe pierced with Abby and Ilana during Seattle trip with college friends!</td>
+	      </tr>
+	      <tr>
+          <td>2</td>
+	        <td>Skin up the resort</td>
+	        <td>Yes</td>
+	        <td>Day after resorts closed, skinned up on my telemark skis with my dad and Mika</td>
+	      </tr>
+	      <tr>
+          <td>3</td>
+	        <td>Get a tattoo</td>
+	        <td>No</td>
+	        <td class="photointable">idea: Bentley snowflake, black center, each layer out a bit lighter   
+          </td>
+	      </tr>
+        <tr>
+          <td>4</td>
+          <td>Boulder V5</td>
+          <td>No</td>
+          <td>Currently projecting V3</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Top rope 5.12</td>
+          <td>No</td>
+          <td>tried some, haven't gotten to the top yet.</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Lead climb 5.10</td>
+          <td>No</td>
+          <td>I've led 5.8</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Climb in a new State</td>
+          <td>No</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Climb in a new country</td>
+          <td>No</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Snowboard in Japan</td>
+          <td>No</td>
+          <td></td>
+        </tr>
+	    </tbody>
+	    <tfoot>
+	      <td>Total Accomplished</td>
+	      <td>2</td>
+	    </tfoot>
+	  </table> 
+    <ul>
+		<li>Level 3 Certified Snowboard Instructor</li>
+		<li>Backcountry on a split board</li>
+		<li>Avalanche 1 Certification</li>
+		<li>Top Rope certification</li>
+		<li>College friend reunion every year</li>
+		<li>One grad school friend reunion</li>
+		<li>Read 30 new books</li>
+		<li>Watch 30 new movies/tv shows</li>
+	  </ul>
+	</section>
+	
+    <br>
+	
+    <section id="Services">
+      <h2>Services</h2>
+      <article>Do you need a website? Have an idea for an app? Do you have data without a way to analyze it? I can do it for you! Submit a form below to get started.</article>
+      <br>
+      <form action="submission.html" method="POST">
+        <label name="servicetype">What do you want designed?</label>
+        <select required>
+          <option value="apps">App</option>
+          <option value="websites">Website</option>
+          <option value="data analysis">Data analysis</option>
+        </select>
+      <br>
+      <label name="name">Name</label>
+      <input id="name" name="name" type="text" placeholder="Penguin Acrobatics" required minlength="1" maxlength="40">
+      <br>
+      <label name="description">Please describe your idea or project in the space provided.</label>
+      <br>
+      <textarea id="description" rows="10" cols="30" name="description" minlength="5" maxlength="750" placeholder="I want a website that shows penguins doing acrobatics." required></textarea>
+      <br>
+      <span>Is this time-sensitive?</span>
+      <br>
+        <input name="time" type="radio" id="Yes" value="Yes" required/>
+        <label for="Yes">Yes</label>
+        <input name="time" type="radio" value="No" id="No" required/>
+        <label for="No">No</label>
+          <br>
+      <input type="submit" value="Submit">
+        </form>
+        <!--Where does this info get sent? How do you use it?-->
+      </section>
+    </main>
+
+    <footer>
+      <section id="contact info">
+        <h2>Contact Me</h2>
+        <a href="#9705565402">Phone</a>
+        <a href="#cassi2394@gmail.com">Email</a>
+        <!--How do you get these to actually link to your contact info?-->
+      </section>
+    </footer>
+  </body>
+</html>

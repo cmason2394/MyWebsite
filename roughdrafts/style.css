@@ -1,0 +1,100 @@
+body {
+  /* Old browsers */
+  background: #141E30;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(-45deg, #35577D, #141E30);
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 2em;
+  padding-top: 100px;
+  width: 100%;
+  font-family: Georgia;
+  text-align: center;
+}
+
+h2 {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  color: rgba(255, 255, 255, 0.5);
+  font-weight: 100;
+  font-size: 22px;
+  line-height: 24px;
+  padding-bottom: 30px;
+  text-align: left;
+  width: 70%;
+  font-family: Georgia;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+
+p {
+  color: AliceBlue;
+  line-height: 1.3em;
+  text-align: left;
+  width: 100%;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-weight: bold;
+
+
+
+.content {
+  padding: 40px;
+}
+
+ 
+a {
+  color: #FFF
+}
+
+main, footer {
+  color: white;
+  font-size: 25px
+  font-family: Helvetica;
+}
+
+th {
+  text-align: center;
+  text-weight: bold;
+}
+
+td {
+  text-align: center;
+}
+
+.everydollarlogo {
+  height: 120px;
+  width: 200px;
+  opacity: 0.65;
+  /*how do you shift images without "wrapping" (floating) them?*/
+}
+
+.snowflakeimage {
+  background-image: url("https://bloximages.chicago2.vip.townnews.com/rutlandherald.com/content/tncms/assets/v3/editorial/3/fa/3fac1de4-f354-5170-af8f-5bc7965e442e/5bc7b57c4fe.jpg")
+  background-size: cover;
+}
+
+.snowflakecaption {
+  float: below;
+  text-align: center;
+  opacity: 0.5
+  font-size: 12px;
+  font-weight: normal;
+}49.image
+
+nav {
+  color: white;
+  background-color: black
+}
+
+/*add comments*/
+
